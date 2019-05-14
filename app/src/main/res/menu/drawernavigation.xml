@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/navigation_scan"
+            android:icon="@drawable/ic_stat_name_scan"
+            android:title="扫一扫"
+            />
+
+        <item
+            android:id="@+id/navigation_reccmmend"
+            android:icon="@drawable/ic_stat_name_recommend"
+            android:title="推荐" />
+
+        <item
+            android:id="@+id/navigation_store"
+            android:icon="@drawable/ic_stat_name_store"
+            android:title="商城" />
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/navigation_myinfo"
+            android:icon="@drawable/ic_stat_name_message"
+            android:title="我的消息" />
+
+        <item
+            android:id="@+id/navigation_myfriend"
+            android:icon="@drawable/ic_stat_name_friend"
+            android:title="我的好友" />
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group3">
+        <item
+            android:id="@+id/navigation_setting"
+            android:icon="@drawable/ic_stat_name_setting"
+            android:title="设置" />
+
+    </group>
+
+</menu>

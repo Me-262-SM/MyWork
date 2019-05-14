@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#555555"
+    tools:context=".login.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#8B1A1A"
+            android:textSize="60dp"
+            android:text="Regist"/>
+
+    </LinearLayout>
+
+    <!--输入框-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/rg_editText_usr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="45dp"
+            android:ems="10"
+            android:hint="用户名/账号"
+            android:textColorHint="#FF34B3"
+            android:textColor="#FFFFE0"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/rg_editText_psw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="45dp"
+            android:ems="10"
+            android:hint="密码"
+            android:textColorHint="#FF34B3"
+            android:textColor="#FFFFE0"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/rg_editText_psw_repeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="45dp"
+            android:ems="10"
+            android:hint="确认密码"
+            android:textColorHint="#FF34B3"
+            android:textColor="#FFFFE0"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+
+    <!--注册按钮-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/rg_btn_register"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/btn_selector_login"
+            android:onClick="btn_regist"
+            android:text="注册"
+            android:textColor="#ff0000"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4">
+    </LinearLayout>
+
+</LinearLayout>
